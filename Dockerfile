@@ -5,4 +5,4 @@ COPY index.html /usr/share/nginx/html/
 # puesto
 EXPOSE 80
 # comando para iniciar nginx en primer plano
-CMD ["nginx", "-g", "deamon off;"]
+CMD ["nginx", "-g", "daemon off;"]
